@@ -18,5 +18,6 @@ pipeline {
                 input 'Do you approve the deployment?'
                 echo 'Deploying....'
             }
+        }
     }
 }
