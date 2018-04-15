@@ -4,6 +4,8 @@
 # Testing build server 02
 # Change one more line from Mac Vargrant ubuntu image
 # I enjoy making changes to this file
+# Change from my InteliJ IDE
+>>>>>>> f0359aaafc5cccbdaea14f03f1736e3be5598cba
 
 # Spring PetClinic Sample Application [![Build Status](https://travis-ci.org/spring-projects/spring-petclinic.png?branch=master)](https://travis-ci.org/spring-projects/spring-petclinic/)
 
