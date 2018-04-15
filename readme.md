@@ -3,6 +3,7 @@
 # This is from my windows pc
 # Testing build server 02
 # Change one more line from Mac Vargrant ubuntu image
+# I enjoy making changes to this file
 
 # Spring PetClinic Sample Application [![Build Status](https://travis-ci.org/spring-projects/spring-petclinic.png?branch=master)](https://travis-ci.org/spring-projects/spring-petclinic/)
 
