@@ -1,5 +1,4 @@
 pipeline {
-    agent { docker 'maven:3.5-alpine' }
     stages {
         stage('checkout') {
             steps {
@@ -16,9 +15,10 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                input 'Do you approve the deployment?'
-                sh 'scp target/*.jar jenkins@192.168.50.10:/opt/pet/'
-                sh "ssh jenkins@192.168.50.10 'nohup java -jar /opt/pet/spring-petclinic-2.0.0.BUILD-SNAPSHOT.jar &'"
+                sh 'echo "deploying"'
+                //input 'Do you approve the deployment?'
+                //sh 'scp target/*.jar jenkins@192.168.50.10:/opt/pet/'
+                //sh "ssh jenkins@192.168.50.10 'nohup java -jar /opt/pet/spring-petclinic-2.0.0.BUILD-SNAPSHOT.jar &'"
             }
         }
     }
